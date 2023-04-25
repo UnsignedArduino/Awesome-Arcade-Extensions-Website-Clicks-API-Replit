@@ -30,7 +30,7 @@ app.add_exception_handler(RateLimitExceeded, _rate_limit_exceeded_handler)
 async def route_root(request: Request):
     return RedirectResponse("/all/", status_code=308)
 
-@app.get("/all/")
+@app.get("/all")
 @limiter.limit(RATE_LIMIT)
 async def route_all(request: Request):
     extensionCLicks = {}
@@ -40,7 +40,7 @@ async def route_all(request: Request):
         
     return extensionCLicks
 
-@app.get("/count/")
+@app.get("/count")
 @limiter.limit(RATE_LIMIT)
 async def route_count(repo: str, request: Request):
     key = EXTENSION_PREFIX + repo
@@ -49,7 +49,7 @@ async def route_count(repo: str, request: Request):
         
     return { repo: db[key] }
 
-@app.get("/click/")
+@app.get("/click")
 @limiter.limit(RATE_LIMIT)
 async def route_click(repo: str, request: Request):
     key = EXTENSION_PREFIX + repo
