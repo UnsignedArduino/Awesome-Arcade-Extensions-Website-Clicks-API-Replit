@@ -16,6 +16,7 @@ clikit==0.6.2
 crashtest==0.3.1
 cryptography @ https://files.pythonhosted.org/packages/26/f8/a81170a816679fca9ccd907b801992acfc03c33f952440421c921af2cc57/cryptography-38.0.4-cp36-abi3-manylinux_2_28_x86_64.whl#sha256=ce127dd0a6a0811c251a6cddd014d292728484e530d80e872ad9806cfb1c5b3c
 debugpy @ https://files.pythonhosted.org/packages/92/d5/b0f9b31b5fc902aa1611d0163652713b21661201f7008051fd5e512e851b/debugpy-1.6.5-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl#sha256=17039e392d6f38388a68bd02c5f823b32a92142a851e96ba3ec52aeb1ce9d900
+Deprecated==1.2.13
 distlib==0.3.6
 fastapi @ https://files.pythonhosted.org/packages/2e/84/d289e941ffec2f107d9097c8f7c2dbc874b0fc3fab9776aa3cc366d45ab2/fastapi-0.95.1-py3-none-any.whl#sha256=a870d443e5405982e1667dfe372663abf10754f246866056336d7f01c21dab07
 filelock==3.9.0
@@ -25,12 +26,14 @@ h11==0.14.0
 html5lib==1.1
 httptools==0.5.0
 idna==3.4
+importlib-resources==5.12.0
 iso8601 @ https://files.pythonhosted.org/packages/65/6c/9d72435c72adfa6e4ed1824b6df7fffbeaaf15c653881e9b041a318ba572/iso8601-1.1.0-py3-none-any.whl#sha256=8400e90141bf792bce2634df533dc57e3bee19ea120a87bebcd3da89a58ad73f
 itsdangerous @ https://files.pythonhosted.org/packages/68/5f/447e04e828f47465eeab35b5d408b7ebaaaee207f48b7136c5a7267a30ae/itsdangerous-2.1.2-py3-none-any.whl#sha256=2c2349112351b88699d8d4b6b075022c0808887cb7ad10069318a8b0bc88db44
 jedi @ https://files.pythonhosted.org/packages/6d/60/4acda63286ef6023515eb914543ba36496b8929cb7af49ecce63afde09c6/jedi-0.18.2-py2.py3-none-any.whl#sha256=203c1fd9d969ab8f2119ec0a3342e0b49910045abe6af0a3ae83a5764d54639e
 jeepney==0.8.0
 Jinja2 @ https://files.pythonhosted.org/packages/bc/c3/f068337a370801f372f2f8f6bad74a5c140f6fda3d9de154052708dd3c65/Jinja2-3.1.2-py3-none-any.whl#sha256=6088930bfe239f0e6710546ab9c19c9ef35e29792895fed6e6e31a023a182a61
 keyring==21.8.0
+limits==3.4.0
 lockfile==0.12.2
 MarkupSafe @ https://files.pythonhosted.org/packages/3d/66/2f636ba803fd6eb4cee7b3106ae02538d1e84a7fb7f4f8775c6528a87d31/MarkupSafe-2.1.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl#sha256=28057e985dace2f478e042eaa15606c7efccb700797660629da387eb289b9323
 msgpack==1.0.4
@@ -67,6 +70,7 @@ rope @ https://files.pythonhosted.org/packages/bd/fb/8ec020125efe0c529719ba200e3
 SecretStorage==3.3.3
 shellingham==1.5.0.post1
 six==1.16.0
+slowapi==0.1.8
 sniffio==1.3.0
 starlette @ https://files.pythonhosted.org/packages/12/48/f9c1ec6bee313aba264fbc2483d9070f4e4526f2538e2b55b1e4a391d938/starlette-0.26.1-py3-none-any.whl#sha256=e87fce5d7cbdde34b76f0ac69013fd9d190d581d80681493016666e6f96c6d5e
 toml @ https://files.pythonhosted.org/packages/44/6f/7120676b6d73228c96e17f1f794d8ab046fc910d781c8d151120c3f1569e/toml-0.10.2-py2.py3-none-any.whl#sha256=806143ae5bfb6a3c6e736a764057db0e6a0e05e338b5630894a5f779cabb4f9b
@@ -83,5 +87,6 @@ webencodings==0.5.1
 websockets==11.0.2
 Werkzeug @ https://files.pythonhosted.org/packages/c8/27/be6ddbcf60115305205de79c29004a0c6bc53cec814f733467b1bb89386d/Werkzeug-2.2.2-py3-none-any.whl#sha256=f979ab81f58d7318e064e99c4506445d60135ac5cd2e177a2de0089bfd4c9bd5
 whatthepatch @ https://files.pythonhosted.org/packages/93/f7/3276ba8d661f459afb171af169a7f68a390ede84c5510baf4575ce3316df/whatthepatch-1.0.3-py3-none-any.whl#sha256=465e075f612bc145905cf2574ea1c5a0122b9eb41959408d676b3b929eae0d8e
+wrapt==1.15.0
 yapf @ https://files.pythonhosted.org/packages/47/88/843c2e68f18a5879b4fbf37cb99fbabe1ffc4343b2e63191c8462235c008/yapf-0.32.0-py2.py3-none-any.whl#sha256=8fea849025584e486fd06d6ba2bed717f396080fd3cc236ba10cb97c4c51cf32
 yarl @ https://files.pythonhosted.org/packages/b5/e0/6ea3832faed10de6a06cd407c660e6978d5538fe7489e934fb9967c8bb8b/yarl-1.8.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl#sha256=6c4fcfa71e2c6a3cb568cf81aadc12768b9995323186a10827beccf5fa23d4f8
